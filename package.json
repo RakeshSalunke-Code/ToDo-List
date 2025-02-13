@@ -1,12 +1,13 @@
-"homepage": "https://RakeshSalunke-Code.github.io/ToDo-List-V2"
-
 {
   "name": "todo-list-as7",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "build": "echo 'No build step needed'",
+    "deploy": "gh-pages -d public"
   },
+  "homepage": "https://RakeshSalunke-Code.github.io/ToDo-List-V2",
   "author": "Rakesh Salunke",
   "license": "ISC",
   "description": "",
@@ -15,5 +16,9 @@
     "ejs": "^3.1.10",
     "express": "^4.21.2",
     "mongoose": "^8.10.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
+
