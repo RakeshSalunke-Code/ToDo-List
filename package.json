@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node index.js",
     "build": "echo 'No build step needed'",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d public"
   },
   "homepage": "https://RakeshSalunke-Code.github.io/ToDo-List-V2",
@@ -21,4 +22,3 @@
     "gh-pages": "^5.0.0"
   }
 }
-
